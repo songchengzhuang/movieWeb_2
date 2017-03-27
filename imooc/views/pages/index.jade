@@ -1,0 +1,26 @@
+//
+   Created by Administrator on 2017/3/5.
+//doctype
+//html
+//    head
+//        meta(charset='utf-8')
+//        title #{title}
+//    body
+//        h1 #{title}
+
+
+//网站的首页，用的jade模板编写
+extends ../layout
+
+block content
+    .container
+        .row
+            each item in movies
+                .col-md-2
+                    .thumbnail
+                        a(href="/movie/#{item._id}")
+                            img(src="#{item.poster}",alt="#{item.title}")
+                        .caption
+                            h3 #{item.title}
+                            p: a.btn.btn-primary(href="/movie/#{item._id}",role="button")
+                                观看MV视频

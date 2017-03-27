@@ -1,0 +1,25 @@
+{
+  "name": "imooch",
+  "version": "0.0.1",
+  "description": "i imooc movie",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "jade": "^1.11.0",
+    "moment": "^2.17.1",
+    "mongoose": "^4.8.6",
+    "serve-static": "^1.12.1",
+    "pug": "^2.0.0-beta11",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imooc"
+  ],
+  "author": "song",
+  "license": "ISC"
+}

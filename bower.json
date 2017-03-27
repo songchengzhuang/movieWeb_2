@@ -1,0 +1,21 @@
+{
+  "name": "imooclianxi",
+  "description": "i  imooc movie",
+  "main": "",
+  "keywords": [
+    "imooc"
+  ],
+  "authors": [
+    "song"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
