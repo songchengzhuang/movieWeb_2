@@ -7,3 +7,4 @@
 电影首页--localhost:3000
 
 电影后台列表页localhost:3000/admin/list
+作品升级版，请查看：https://github.com/songchengzhuang/MoviesWeb_plus.git
