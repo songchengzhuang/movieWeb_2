@@ -1,5 +1,9 @@
 # movieWeb_2
+此项目需要 电脑上 安装有 node+MongoDB数据库。
 
+app.js启动node服务器。
+
+---------------------------------------------------
 基于jade(bootstrap)+node.js_MongoDB数据库，
 
 实现前后端的链接，实现电影的增删改查
