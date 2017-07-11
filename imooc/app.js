@@ -13,6 +13,7 @@
  var port = process.env.PORT||3000  //设置端口3000（默认），和外围所传递的参数
  var app=express();  //启动一个服务器
 
+//这里版本更新 改成createconnect。
  mongoose.connect('mongodb://localhost/imooc');
 
 
